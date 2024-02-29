@@ -1,4 +1,95 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    background-color: #161616;
+    color: #B2B7BC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    background-color: #1D1E20;
+    display: flex;
+    flex-direction: column;
+}
+
+tr {
+    border: 1px solid #ffffff;
+}
+
+td {
+    text-align: center;
+}
+
+.contentClub {
+    /* width: 100%; */
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.blueLine {
+    height: 30px;
+    width: 2px;
+    background-color: blue;
+}
+
+.greenLine {
+    height: 30px;
+    width: 2px;
+    background-color: green;
+}
+
+.redLine {
+    height: 30px;
+    width: 2px;
+    background-color: red;
+}
+
+.contentCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    /* width: 50%; */
+    width: 10vw;
+}
+
+.loserCircle {
+    width: 25px;
+    height: 25px; 
+    background-color: red; 
+    border-radius: 100%; 
+}
+
+.winnerCicle {
+    width: 25px;
+    height: 25px; 
+    background-color: rgb(47, 196, 10); 
+    border-radius: 100%;
+}
+
+.drawCircle {
+    width: 25px;
+    height: 25px;
+    background-color: #B2B7BC;
+    border-radius: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3A3D3F;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+.status {
+    width: 50%;
+}
+
+.points {
+    min-width: 40px;
 }

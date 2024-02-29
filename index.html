@@ -7,6 +7,7 @@
         <title>Brasileirão</title>
 
         <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     </head>
 
@@ -20,43 +21,94 @@
       <table>
         <thead>
             <tr>
-                <th>Clube</th>
-                <th>Pts</th>
-                <th>PJ</th>
-                <th>VIT</th>
-                <th>E</th>
-                <th>DER</th>
-                <th>GM</th>
-                <th>GC</th>
-                <th>SG</th>
-                <th>Últimas 5</th>
+                <th class="contentClub">Clube</th>
+                <th class="points">PJ</th>
+                <th class="points">Pts</th>
+                <th class="points">E</th>
+                <th class="points">VIT</th>
+                <th class="points">GM</th>
+                <th class="points">DER</th>
+                <th class="points">SG</th>
+                <th class="points">GC</th>
+                <th class="contentCircle">Últimas 5</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>1 <img src="./assets/images/Palmeiras_logo.png" width="24" height="24">Palmeiras</td>
-                <td>81</td>
-                <td>38</td>
-                <td>23</td>
-                <td>12</td>
-                <td>3</td>
-                <td>66</td>
-                <td>27</td>
-                <td>39</td>
+                <td class="contentClub">
+                    <div class="blueLine"></div>
+                    1
+                    <img src="./assets/images/Palmeiras_logo.png" width="24" height="24">
+                    Palmeiras
+                </td>
+                <!-- <div> -->
+                    <td class="points">81</td>
+                    <td class="points">38</td>
+                    <td class="points">23</td>
+                    <td class="points">12</td>
+                    <td class="points">3</td>
+                    <td class="points">66</td>
+                    <td class="points">27</td>
+                    <td class="points">39</td>
+                <!-- </div> -->
+                <td class="contentCircle"> 
+                    <div class="loserCircle">
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="drawCircle"></div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                </td>
+            </tr>
+            <tr class="teste">
+
+                <td class="contentClub">
+                    <div class="blueLine">
+
+                    </div>
+                    2
+                    <img src="./assets/images/Internacional.svg" width="24" height="24">
+                    Internacional
+                </td>
+                <td class="points">73</td>
+                <td class="points">38</td>
+                <td class="points">20</td>
+                <td class="points">13</td>
+                <td class="points">5</td>
+                <td class="points">58</td>
+                <td class="points">31</td>
+                <td class="points">27</td>
+                <td class="contentCircle"> 
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="loserCircle">
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                </td>
             </tr>
             <tr>
-                <td>2 <img src="./assets/images/Internacional.svg" width="24" height="24">Internacional</td>
-                <td>73</td>
-                <td>38</td>
-                <td>20</td>
-                <td>13</td>
-                <td>5</td>
-                <td>58</td>
-                <td>31</td>
-                <td>27</td>
-            </tr>
-            <tr>
-                <td>3 <img src="./assets/images/Fluminense.png" width="24" height="24">Fluminense</td>
+
+                <td class="contentClub">
+                    <div class="blueLine"></div>
+                    3
+                    <img src="./assets/images/Fluminense.png" width="24" height="24">
+                    Fluminense
+                </td>
                 <td>70</td>
                 <td>38</td>
                 <td>21</td>
@@ -65,9 +117,32 @@
                 <td>63</td>
                 <td>41</td>
                 <td>22</td>
+                <td class="contentCircle"> 
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                </td>
             </tr>
             <tr>
-                <td>14 <img src="./assets/images/RedBullBragantino.png" width="24" height="24">Bragantino</td>
+
+                <td class="contentClub">
+                    <div class="greenLine"></div>
+                    14
+                    <img src="./assets/images/RedBullBragantino.png" width="24" height="24">
+                    Bragantino
+                </td>
                 <td>44</td>
                 <td>38</td>
                 <td>11</td>
@@ -76,9 +151,26 @@
                 <td>49</td>
                 <td>59</td>
                 <td>-10</td>
+                <td class="contentCircle"> 
+                    <div class="loserCircle">
+                    </div>
+                    <div class="loserCircle">
+                    </div>
+                    <div class="loserCircle">
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="loserCircle"></div>
+                </td>
             </tr>
             <tr>
-                <td>15 <img src="./assets/images/Coritiba.png" width="24" height="24">Coritiba</td>
+
+                <td class="contentClub">
+                    15
+                    <img src="./assets/images/Coritiba.png" width="24" height="24">
+                    Coritiba
+                </td>
                 <td>42</td>
                 <td>38</td>
                 <td>12</td>
@@ -87,9 +179,22 @@
                 <td>39</td>
                 <td>60</td>
                 <td>-21</td>
+                <td class="contentCircle"> 
+                    <div class="loserCircle">
+                    </div>
+                    <div class="drawCircle"></div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="loserCircle"></div>
+                </td>
             </tr>
             <tr>
-                <td>16 <img src="./assets/images/Cuiabá.png" width="24" height="24">Cuiabá</td>
+
+                <td class="contentClub">16<img src="./assets/images/Cuiabá.png" width="24" height="24">Cuiabá</td>
                 <td>41</td>
                 <td>38</td>
                 <td>10</td>
@@ -98,9 +203,28 @@
                 <td>31</td>
                 <td>42</td>
                 <td>-11</td>
+                <td class="contentCircle"> 
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="loserCircle"></div>
+                    <div class="drawCircle"></div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                </td>
             </tr>
             <tr>
-                <td>17 <img src="./assets/images/Ceará.png" width="24" height="24">Ceará SC</td>
+
+                <td class="contentClub">
+                    <div class="redLine"></div>
+                    17
+                    <img src="./assets/images/Ceará.png" width="24" height="24">
+                    Ceará SC
+                </td>
                 <td>37</td>
                 <td>38</td>
                 <td>7</td>
@@ -109,9 +233,28 @@
                 <td>34</td>
                 <td>41</td>
                 <td>-7</td>
+                <td class="contentCircle"> 
+                    <div class="loserCircle">
+                    </div>
+                    <div class="loserCircle">
+                    </div>
+                    <div class="loserCircle">
+                    </div>
+                    <div class="loserCircle">
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                </td>
             </tr>
             <tr>
-                <td>18 <img src="./assets/images/Atlético-GO.png" width="24" height="24">Atlético-CO</td>
+
+                <td class="contentClub">
+                    <div class="redLine"></div>
+                    18
+                    <img src="./assets/images/Atlético-GO.png" width="24" height="24">
+                    Atlético-CO
+                </td>
                 <td>36</td>
                 <td>38</td>
                 <td>8</td>
@@ -120,9 +263,22 @@
                 <td>39</td>
                 <td>57</td>
                 <td>-18</td>
+                <td class="contentCircle"> 
+                    <div class="drawCircle"></div>
+                    <div class="drawCircle"></div>
+                    <div class="drawCircle"></div>
+                    <div class="loserCircle"></div>
+                    <div class="loserCircle"></div>
+                </td>
             </tr>
             <tr>
-                <td>19 <img src="./assets/images/Avaí.png" width="24" height="24">Avaí</td>
+
+                <td class="contentClub">
+                    <div class="redLine"></div>
+                    19
+                    <img src="./assets/images/Avaí.png" width="24" height="24"
+                    >Avaí
+                </td>
                 <td>35</td>
                 <td>38</td>
                 <td>9</td>
@@ -131,9 +287,27 @@
                 <td>34</td>
                 <td>60</td>
                 <td>-26</td>
+                <td class="contentCircle"> 
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="winnerCicle">
+                        <i class="material-icons icon">check</i>
+                    </div>
+                    <div class="drawCircle"></div>
+                    <div class="loserCircle">
+                    </div>
+                    <div class="loserCircle">
+                    </div>
+                </td>
             </tr>
             <tr>
-                <td>20 <img src="./assets/images/Juventude.png" width="24" height="24">Juventude</td>
+                <td class="contentClub">
+                    <div class="redLine"></div>
+                    20
+                    <img src="./assets/images/Juventude.png" width="24" height="24">
+                    Juventude
+                </td>
                 <td>22</td>
                 <td>38</td>
                 <td>3</td>
@@ -142,19 +316,36 @@
                 <td>29</td>
                 <td>69</td>
                 <td>-40</td>
+                <td class="contentCircle"> 
+                    <div class="loserCircle">
+                    </div>
+                    <div class="drawCircle"></div>
+                    <div class="loserCircle">
+                    </div>
+                    <div class="loserCircle">
+                    </div>
+                    <div class="loserCircle">
+                    </div>
+                </td>
             </tr>
         </tbody>
       </table>
     </main>
-
-
-    <footer>
-      <p>Qualificação/Rebaixamento</p>
-      <p>Últimas 5 partidas</p>
-      <p>Fase de grupos da Copa Libertadores</p>
-      <p>Qualificatórias da Copa Libertadores</p>
-      <p>Fase de grupos da Copa Sul-Americana</p>
-      <p>Rebaixamento</p>
+    <footer class="bold">
+        <div class="status">
+            <p>Qualificação/Rebaixamento</p>
+            <p>Últimas 5 partidas</p>
+            <p>Fase de grupos da Copa Libertadores</p>
+            <p>Qualificatórias da Copa Libertadores</p>
+            <p>Fase de grupos da Copa Sul-Americana</p>
+            <p>Rebaixamento</p>
+        </div>
+        <div class="status">
+            <p >Últimas 5 partidas</p>
+            <p>Vitórias</p>
+            <p>Empates</p>
+            <p>Derrota</p>
+        </div>
     </footer>
   </body>
 </html>
