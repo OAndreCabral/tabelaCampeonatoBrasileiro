@@ -1,3 +1,8 @@
+header {
+    align-items: center;
+    text-align: center;
+}
+
 body {
     background-color: #161616;
     color: #B2B7BC;
@@ -30,7 +35,7 @@ td {
 .blueLine {
     height: 30px;
     width: 2px;
-    background-color: blue;
+    background-color: rgb(16, 72, 175);
 }
 
 .greenLine {
@@ -90,13 +95,13 @@ footer {
 .boxBlueFooterInfo {
     width: 25px;
     height: 25px;
-    background-color: blue;
+    background-color: rgb(16, 72, 175);
 }
 
 .boxOrangeFooterInfo {
     width: 25px;
     height: 25px;
-    background-color: orange;
+    background-color: rgb(197, 134, 18);
 }
 
 .boxGreenFooterInfo {
