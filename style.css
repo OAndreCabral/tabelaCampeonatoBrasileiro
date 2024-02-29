@@ -61,7 +61,7 @@ td {
     border-radius: 100%; 
 }
 
-.winnerCicle {
+.winnerCircle {
     width: 25px;
     height: 25px; 
     background-color: rgb(47, 196, 10); 
@@ -71,7 +71,7 @@ td {
 .drawCircle {
     width: 25px;
     height: 25px;
-    background-color: #B2B7BC;
+    background-color: #615d5d;
     border-radius: 100%;
 }
 
@@ -83,13 +83,44 @@ footer {
     padding: 25px;
 }
 
-.bold {
+.fontFooterBold {
     font-weight: bold;
 }
-.status {
+
+.boxBlueFooterInfo {
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+}
+
+.boxOrangeFooterInfo {
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+}
+
+.boxGreenFooterInfo {
+    width: 25px;
+    height: 25px;
+    background-color: green;
+}
+
+.boxRedFooterInfo {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+}
+
+.textFooterStatus {
     width: 50%;
 }
 
 .points {
     min-width: 40px;
+}
+
+.footerInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
